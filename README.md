@@ -1,3 +1,5 @@
+[![golangci-lint](https://github.com/firdavsich/tty_readloop/actions/workflows/lint.yml/badge.svg)](https://github.com/firdavsich/tty_readloop/actions/workflows/lint.yml)
+
 # tty_readloop
 Loop read from tty port to stdout
 
