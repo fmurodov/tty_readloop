@@ -21,11 +21,11 @@ func main() {
 	c := &serial.Config{Name: os.Args[1], Baud: 9600, ReadTimeout: time.Millisecond * 500}
 	// Opening port
 	s, err := serial.OpenPort(c)
-	defer s.Close()
 
 	if err != nil {
 		log.Fatal("OpenPort:", err)
 	}
+	defer s.Close()
 
 	for {
 		// flush unreaded data on port
