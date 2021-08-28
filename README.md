@@ -1,3 +1,4 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/firdavsich/tty_readloop)](https://goreportcard.com/report/github.com/firdavsich/tty_readloop)
 [![golangci-lint](https://github.com/firdavsich/tty_readloop/actions/workflows/lint.yml/badge.svg)](https://github.com/firdavsich/tty_readloop/actions/workflows/lint.yml)
 
 # tty_readloop
