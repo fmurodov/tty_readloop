@@ -14,6 +14,7 @@ func main() {
 
 	buf := make([]byte, 1024)
 	if len(os.Args) != 2 {
+		fmt.Println("tty_readloop v0.0.2")
 		fmt.Println("Usage: ./tty_readloop TTY_PORT")
 		return
 	}
